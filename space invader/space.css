@@ -1,0 +1,18 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-color: black;
+    width: 700px;
+    height: 650px;
+}
+
+#ab{
+position:absolute;
+    left:0px;
+    top:87%;
+    font-size: 25px;
+
+}
