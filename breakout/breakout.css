@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #1e3c72);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#board {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto 20px auto;
+    border: 5px solid skyblue;
+    display: block;
+}
+
+
+p {
+    font-size: 22px;
+    color: white;
+}
+
+#home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#home-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 191, 255, 0.7);
+    padding: 8px 16px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#home-button a:hover {
+    background-color: rgba(0, 191, 255, 1);
+}
