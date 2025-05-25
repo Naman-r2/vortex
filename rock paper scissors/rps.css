@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Home Button */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #00fff1, #ff00c8);
+    color: #1a1a2e;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 12px #00fff1, 0 0 24px #ff00c8;
+    transition: 0.3s ease;
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #ff00c8, #00fff1);
+    color: white;
+}
+
+/* Layout */
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 60px 40px;
+}
+
+/* Player Block */
+.player-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.player-block img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Score */
+.score {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+/* Choices Section */
+.choices-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#choices {
+    display: flex;
+    gap: 15px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+#choices img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px white;
+}
+
+#abc {
+    font-size: 18px;
+    font-weight: bold;
+}
+#abc span {
+    color: #00fff1;
+}
